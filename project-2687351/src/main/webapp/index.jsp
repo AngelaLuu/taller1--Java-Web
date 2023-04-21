@@ -22,7 +22,7 @@
         <label for="ID">Document </label> </div>
     <input type="text" id="ID" name="ID" placeholder="Ingresar su documento" required>
     <div class="mb-3">
-    <label for="NAME">name </label> </div>
+    <label for="NAME">Name </label> </div>
     <input type="text" id="NAME" name="NAME" placeholder="Ingresar nombre" required autofocus pattern="[A-Za-z ]{2,40}">
     <div class="mb-3">
         <label for="LASTNAME">Lastname </label> </div>
