@@ -28,7 +28,7 @@
     <input type="text" id="LASTNAME" name="LASTNAME" placeholder="ingresar apellido" required pattern="[A-Za-z ]{2,40}">
     <div class="mb-3">
     <label for="EMAIL"> Email </label> </div>
-    <input type="text" id="EMAIL" name="EMAIL" placeholder="Ingresar correo electonico" required pattern="[60}">
+    <input type="email" id="EMAIL" name="EMAIL" placeholder="Ingresar correo electonico" required pattern="[60}">
     <div class="mb-3">
     <label for="PASSWORD">Password </label> </div>
     <input type="password" id="PASSWORD" name="PASSWORD" placeholder="Ingresar la contraseña" required pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$">
