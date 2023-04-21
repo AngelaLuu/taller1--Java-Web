@@ -7,20 +7,16 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <title>JSP - Hello World</title>
 </head>
-<header>
+<body>
+    <header>
     <h1><p>Formulario</p></h1>
 </header>
 <nav>
 <p>Informacion</p>
 </nav>
-
-<body>
 <section>
 <!--flexbox-->
 <center><form method="post" action="" class="grupo-entradas">
-    <div class="mb-3">
-        <label for="ID">Document </label> </div>
-    <input type="text" id="ID" name="ID" placeholder="Ingresar su documento" required>
     <div class="mb-3">
     <label for="NAME">Name </label> </div>
     <input type="text" id="NAME" name="NAME" placeholder="Ingresar nombre" required autofocus pattern="[A-Za-z ]{2,40}">
